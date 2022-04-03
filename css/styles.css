@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-    --red:#ff3838;
+    --green:#32f00f;
 }
 *{
     font-family: 'Nunito', sans-serif;
@@ -14,7 +14,7 @@
 }
 
 *::selection{
-    background: var(--red);
+    background: var(--green);
     color:#fff;
 
 }
@@ -55,7 +55,7 @@ header .logo{
 
 header .logo i{
     padding-right: .5rem;
-    color: var(--red);
+    color: var(--green);
 }
 
 header .navbar a{
@@ -65,7 +65,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color:var(--red);
+    color:var(--green);
 }
 
 #menu-bar{
@@ -325,18 +325,6 @@ header .navbar a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes float {
     0%, 100%{
         transform: translateY(0rem);
@@ -402,7 +390,7 @@ header .navbar a:hover{
         padding: 1.5rem;
         display: block;
         border: .1rem solid rgba(0, 0, 0, 1);
-        border-left: .5rem solid var(--red);
+        border-left: .5rem solid var(--green);
         background: #fff;
 
     }
