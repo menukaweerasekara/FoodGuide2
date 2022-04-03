@@ -311,6 +311,17 @@ header .navbar a:hover{
     top: 0;
 }
 
+#scroll-top{
+    position: fixed;
+    top: calc(100% - 12rem);
+    right:2rem;
+    padding: 2rem 3rem;
+    font-size: 6rem;
+    background:transparent;
+    color: #fff;
+    border-radius: .5rem;
+
+}
 
 
 
